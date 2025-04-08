@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    {% include ga.html %}
+    {% include title.html %}
+    {% include meta.html %}
+    {% include canonical.html %}
+    {% include styles.html %}
+  </head>
+  <body class="terminal">
+    <div class="container">
+      {% include nav.html %}
+      <main>
+        {% include post_header.html %}
+        {{ content }}
+      </main>
+      <footer>
+        © 2025 {{ site.author }}
+      </footer>
+    </div>
+  </body>
+  {% include hl.html %}
+</html>

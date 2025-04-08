@@ -1,0 +1,32 @@
+<div class="terminal-nav">
+  <header class="terminal-logo">
+    <div class="logo terminal-prompt">
+      <a href="/" class="no-style">{{ site.nav_logo }}</a>
+    </div>
+  </header>
+  <nav class="terminal-menu">
+    <ul>
+      <li>
+        <a href="https://blog.fazibear.me" class="menu-item {% if site.nav_logo == "blog.fazibear.me" %}active{% endif %}">
+          blog
+        </a>
+      </li>
+      <li>
+        <a href="https://projects.fazibear.me" class="menu-item {% if site.nav_logo == "projects.fazibear.me" %}active{% endif %}">
+          projects
+        </a>
+      </li>
+      <li>
+        <a href="https://til.fazibear.me" class="menu-item {% if site.nav_logo == "til.fazibear.me" %}active{% endif %}">
+          til
+        </a>
+      </li>
+      <li>
+        <a href="https://about.fazibear.me" class="menu-item {% if site.nav_logo == "about.fazibear.me" %}active{% endif %}">
+          about
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+

@@ -1,0 +1,12 @@
+{% if page.title %}
+<header class="header">
+  <h1>{{ page.title }}</h1>
+  <p class="dimmed">
+    {{ page.date| date: "%-d %B %Y" }}
+    |
+    {% for tag in page.tags limit:3 %}
+    #{{ tag }}
+    {% endfor %}
+  </p>
+</header>
+{% endif %}
