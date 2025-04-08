@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary     = "This is an example!"
   s.files       = [
     Dir['_layouts/*'],
-    Dir['_inludes/*'].
+    Dir['_inludes/*'],
     Dir['assets/*'],
     'styles.css',
   ].flatten
