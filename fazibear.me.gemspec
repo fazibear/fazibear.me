@@ -12,4 +12,10 @@ Gem::Specification.new do |s|
   ].to_a
 
   s.metadata["plugin_type"] = "theme"
+
+  s.add_runtime_dependency "jekyll", "> 4.4"
+  s.add_runtime_dependency "jekyll-feed", "> 0"
+  s.add_runtime_dependency "jekyll-sitemap", "> 0"
+
+  s.add_development_dependency "bundler"
 end
