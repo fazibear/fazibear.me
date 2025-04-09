@@ -46,6 +46,10 @@ pre code {
   border-bottom: 1px dashed var(--dimmed-color);
 }
 
+.terminal-menu {
+  text-align: right;
+}
+
 .dimmed {
   color: #636b7a;
 }
