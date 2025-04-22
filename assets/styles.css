@@ -59,6 +59,10 @@ pre code {
   margin-bottom: calc(var(--global-space) * 4);
 }
 
+.main {
+  display: none;
+}
+
 .rest {
   display:none;
   height:auto;
