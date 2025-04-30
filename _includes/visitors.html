@@ -1,0 +1,5 @@
+{% if site.visitors %}
+<a href="https://visitorbadge.io/status?path={{ site.visitors.path }}">
+  <img src="https://api.visitorbadge.io/api/combined?path={{ site.visitors.path }}&labelColor=%23{{ site.visitors.label }}&countColor=%23{{ site.visitors.count }}" />
+</a>
+{% endif %}
