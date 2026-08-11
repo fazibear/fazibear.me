@@ -13,6 +13,11 @@
   --dimmed-color: #636b7a;
 }
 
+img.visitors,
+img.me {
+   width: unset;
+}
+
 img {
   max-width: 49%;
 }
